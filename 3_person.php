@@ -4,7 +4,7 @@
     $person = new Person();
 
     $person->setName("Jasiu");
-    echo $person->name;
+    echo '<br>'.$person->name;
 
 
 //dodaj do klasy możliwość dodania wieku oraz wzrostu    
