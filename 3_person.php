@@ -1,11 +1,15 @@
 <?php
     require_once './class/Person.php';
 
+    //test person
     $person = new Person();
 
     $person->setName("Jasiu");
-    echo '<br>'.$person->name;
+    $person->setSurname("Kowalski");
+    $person->setAge("32");
+    $person->setHeight("168");
 
+    echo '<br>'.$person->getData().'<br>';
 
 //dodaj do klasy możliwość dodania wieku oraz wzrostu    
 //dodaj metodę, która umożliwia ustawienie wszystkich składowych
